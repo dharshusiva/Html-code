@@ -1,69 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC College Website</title>
 </head>
+
 <body>
+
+    <center>
+        <h1>ABC COLLEGE GROUPS</h1>
+    </center>
     <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About US</a></li>
-            <li><a href="">Departments</a></li>
-            <li><a href="">Student Registration Form</a></li>
-            <li><a href="">Contact Us</a></li>
-        </ul>
+           <a href="#home">Home</a> |
+            <a href="#aboutus">About US</a> |
+            <a href="#departments">Departments</a> |
+            <a href="#registration form">Student Registration Form</a> |
+            <a href="#contact us">Contact Us</a>
+    
     </nav>
     <hr>
-</body>
-<section id="home">
-    <h2> WELCOME TO ABC SCHOOL</h2>
+
+<section id="aboutus">
+    <center>
+        <h2> WELCOME TO ABC SCHOOL</h2>
+    </center>
     <p>We provide quality education for students of all ages. Learn more about our courses and enroll today!</p>
 
 </section>
 <hr>
+
 <section id="departments">
-<h2> DEPARTMENTS </h2>
-        <label for="bsc">BSC</label>
-        <select name=" BSCCourses" id="BSCCourses">
-            <option value="Physics">Physics</option>
-            <option value="Chemistry">Chemistry</option>
-            <option value="Computer Science">Computer Science</option>
-            <option value="Mathematics">Mathematics</option>
-</select> <br><br>
+    <center>
+        <h2> DEPARTMENTS </h2>
+    </center>
+    <label for="bsc">BSC</label>
+    <select name=" BSCCourses" id="BSCCourses">
+        <option value="Physics">Physics</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Mathematics">Mathematics</option>
+    </select> <br><br>
 
-<label for="msc">MSC</label>
-<select name=" MSCCourses" id="MSCCourses">
-   
-    <option value="Computer Science">Computer Science</option>
-    <option value="Mathematics">Mathematics</option>
-    <option value="Physics">Physics</option>
-    <option value="Chemistry">Chemistry</option>
+    <label for="msc">MSC</label>
+    <select name=" MSCCourses" id="MSCCourses">
 
-</select> <br> <br>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="Physics">Physics</option>
+        <option value="Chemistry">Chemistry</option>
 
-<label for="b.com">B.COM</label>
-<select name=" BSCCourses" id="BSCCourses">
-    <option value="Accounts and Finance">Accounts and Finance</option>
-    <option value="Computer Applications">Computer Applications</option>
-    <option value="Hons">Hons.</option>
+    </select> <br> <br>
 
-</select> <br> <br>
+    <label for="b.com">B.COM</label>
+    <select name=" BSCCourses" id="BSCCourses">
+        <option value="Accounts and Finance">Accounts and Finance</option>
+        <option value="Computer Applications">Computer Applications</option>
+        <option value="Hons">Hons.</option>
 
-<label for="m.com">M.COM</label>
-<select name=" McomCourses" id="McomCourses">
-    <option value="Business Aministration">Business Aministration</option>
-    <option value="Accounts and Finance">Accounts and Finance</option>
-    <option value="Economics">Economics</option>
-</select> <br> <br>
+    </select> <br> <br>
+
+    <label for="m.com">M.COM</label>
+    <select name=" McomCourses" id="McomCourses">
+        <option value="Business Aministration">Business Aministration</option>
+        <option value="Accounts and Finance">Accounts and Finance</option>
+        <option value="Economics">Economics</option>
+    </select> <br> <br>
 
 </section>
 <hr>
 
-<section id="registration form"> 
-    <h2>Student Registration Form</h2>
-    <table border="1" style="border-collapse: collapse;"></table>
-</section>
+<section id="registration form">
+    <center>
 
+        <h2>STUDENT REGISTRATION FORM</h2>
+    </center>
+   <form action="Post">
+    <label for="name"> Name </label>
+    <input type="text" placeholder="Enter Your Name" id="name" name="Name"><br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age"><br><br>
+    <label for="regno">Reg No</label>
+    <input type="number" id="regno" name="regno"><br><br>
+    <label for="phoneno">Mobile No</label>
+    <input type="number" id="phoneno" name="phoneno"><br><br>
+    <label for="department">Department:</label>
+    <select name=" depart" id="depart">
+        <option value="B.SC">B.SC</option>
+        <option value="M.SC">M.SC</option>
+        <option value="B.COM">B.COM</option>
+        <option value="M.COM">M.COM</option>
+    </select> <br><br>
+
+    <label for="Courses">Courses</label>
+    <select name=" courses" id="courses">
+    <option value="Computer Science">Computer Science</option>
+    <option value="Mathematics">Mathematics</option>
+    <option value="Physics">Physics</option>
+    <option value="Chemistry">Chemistry</option>
+    <option value="Accounts and Finance">Accounts and Finance</option>
+        <option value="Computer Applications">Computer Applications</option>
+        <option value="Hons">Hons.</option>
+        <option value="Business Aministration">Business Aministration</option>
+        <option value="Accounts and Finance">Accounts and Finance</option>
+        <option value="Economics">Economics</option>
+       </select> <br><br>
+
+       
+       <textarea name="message" id="message" rows="4" cols="50 " placeholder="Message"></textarea><br> <br>
+       
+
+      <input type="submit" value="submit">
+   </form>
+</section>
+<hr>
+
+<section id="contact us">
+    
+    <center>
+        <h2>CONTACT US</h2>
+        <p>If you have any questions, please feel free to reach out to us.</p>
+    </center>
+    <h3>Our Contact Information</h3>
+    <p><b>Email:</b><a href="mailto:abc123@gmail.com">abc123@gmail.com</a></p>
+    <p><b>Phone No:</b><a href="+917897365698">+917897365698</a></p>
+    <p><b>Address:</b></p><pre>N0:2/3 91D,Periyar Street,Chennai</pre>
+    
+
+
+</section>
+<hr>
+
+<footer>
+    <center>
+        <p>&copy; 2024 website. All rights reserved.</p>
+    </center>
+</footer>
+
+</body>
 </html>
