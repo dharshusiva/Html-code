@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <section id="registration-form">
+        <div class="container">
+            <h2>STUDENT REGISTRATION FORM</h2>
+        <a href="Registration Form.html" download class="download-link" >Download Form</a>
+       <form action="Post" method="post">
+        <div class="form-group">
+        <label for="name">Full Name </label>
+        <input type="text" placeholder="Enter Your Name" id="name" name="Name"><br><br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age"><br><br>
+        <label for="phoneno">Mobile No</label>
+        <input type="number" id="phoneno" name="phoneno"><br><br>
+        <label for="gender">Gender:</label>
+        <label>
+        <input type="radio" name="gender" value="male">Male</label>
+        <label>
+            <input type="radio" name="gender" value="female">Female</label><br><br>
+            <label for="dob">D.O.B</label>
+            <input type="date" name="dob" id="dob"> <br><br>
+        <label for="department">Select Department:</label>
+        <select name=" depart" id="depart">
+            <option value="B.SC">B.SC</option>
+            <option value="M.SC">M.SC</option>
+            <option value="B.COM">B.COM</option>
+            <option value="M.COM">M.COM</option>
+        </select> <br><br>
+    
+        <label for="Courses">Select Course</label>
+        <select name=" courses" id="courses">
+        <option value="Computer Science">Computer Science</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="Physics">Physics</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="Accounts and Finance">Accounts and Finance</option>
+            <option value="Computer Applications">Computer Applications</option>
+            <option value="Hons">Hons.</option>
+            <option value="Business Aministration">Business Aministration</option>
+            <option value="Accounts and Finance">Accounts and Finance</option>
+            <option value="Economics">Economics</option>
+           </select> <br><br>
+
+           <label for="12thpercentage">HSC Percentage:</label>
+           <input type="number" id="12thpercentage" name="12thpercentage"><br><br>
+           <label for="10thpercentage">SSLC Percentage:</label>
+           <input type="number" id="10thpercentage" name="10thpercentage"><br><br>
+    <label for="12thmarksheet">HSC Marksheet:</label><br> 
+           <label> File Upload</label>
+           <input type="file" name="12thmarksheet" id="12thmarksheet"> <br> <br>
+    
+    <label for="10thmarksheet">SSlC Marksheet:</label><br>
+           <label> File Upload</label>
+           <input type="file" name="10thmarksheet" id="10thmarksheet"> <br><br>
+
+    
+          <input type="submit" value="Register">
+          <input type="reset" value="Reset">
+          </div>
+       </form>
+    </div>
+    </section>
+</body>
+</html>
