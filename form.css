@@ -58,16 +58,37 @@ input,select{
 
 input[type="submit"]:hover {
     background-color: #306ab6;
+    
+}
+
+input[type="reset"]:hover {
+    background-color: #306ab6;
+    
+}
+
+input[type="submit"],input[type="reset"]{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 200px;
+    margin-right: 20px;
 }
 
 .form-group label input {
     margin-right: 10px;
 }
 
-input:focus,
-select:focus,
-textarea:focus {
-    border-color: #4CAF50;
-    outline: none;
+input[type="radio"]{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#radio{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#submitbutton{
+    padding: 100px; 
 }
 
